@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link rel="icon" href="./images/favicon.png">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="todo-container">
+
+        <div class="stats-container">
+            <div class="stats-content">
+                <h3>Todo Done 📖</h3>
+                <p>Keep it up! 🔥</p>
+                <div class="stats-progress">
+                    <div class="progress"></div>
+                </div>
+            </div>
+            <div class="stats-number">
+                <p>0/0</p>
+            </div>
+        </div>
+
+        <form class="todo-input">
+            <input type="text" placeholder="Write your task" id="userInput">
+            <button type="submit" id="addTask"><i class='bx bx-plus'></i></button>
+        </form>
+
+        <ul class="todo-list">
+
+            <!-- <li class="list-item">
+                <div class="list-name">
+                    <input type="checkbox">
+                    <p>Learn React</p>
+                </div>
+                <div class="list-icons">
+                    <div class="list-edit">
+                        <i class='bx bx-edit'></i>
+                    </div>
+                    <div class="list-delete">
+                        <i class='bx bx-trash'></i>
+                    </div>
+                </div>
+            </li> -->
+
+        </ul>
+
+    </div>
+
+    <!-- Link confetti Js -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+    <!-- Link JS -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
